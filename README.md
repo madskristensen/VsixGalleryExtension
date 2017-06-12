@@ -2,8 +2,7 @@
 
 [![Build status](https://ci.appveyor.com/api/projects/status/kstp8smh28emp9ns?svg=true)](https://ci.appveyor.com/project/madskristensen/vsixgalleryextension)
 
-<!-- Update the VS Gallery link after you upload the VSIX-->
-Download this extension from the [VS Gallery](https://visualstudiogallery.msdn.microsoft.com/[GuidFromGallery])
+Download this extension from the [Marketplace](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.VSIXGallery-nightlybuilds)
 or get the [CI build](http://vsixgallery.com/extension/32b51a45-f958-4a80-8575-2c9906e45057/).
 
 ---------------------------------------
