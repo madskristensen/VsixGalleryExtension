@@ -4,13 +4,14 @@
         <Identity Id="32b51a45-f958-4a80-8575-2c9906e45057" Version="1.0" Language="en-US" Publisher="Mads Kristensen" />
         <DisplayName>VSIX Gallery - nightly builds</DisplayName>
         <Description xml:space="preserve">Get on the cutting edge by using the nighly builds of your favorite extensions from vsixgallery.com</Description>
+        <MoreInfo>https://github.com/madskristensen/VsixGalleryExtension</MoreInfo>
         <License>Resources\LICENSE</License>
+        <ReleaseNotes>https://github.com/madskristensen/VsixGalleryExtension/blob/master/CHANGELOG.md</ReleaseNotes>
         <Icon>Resources\Icon.png</Icon>
         <PreviewImage>Resources\Icon.png</PreviewImage>
         <Tags>vsix, extensions, gallery</Tags>
     </Metadata>
     <Installation>
-        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="12.0" />
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="14.0" />
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="15.0" />
     </Installation>

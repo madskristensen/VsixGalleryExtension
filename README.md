@@ -1,7 +1,6 @@
 # VSIX Gallery - nightly builds
 
-<!-- Replace this badge with your own-->
-[![Build status](https://ci.appveyor.com/api/projects/status/hv6uyc059rqbc6fj?svg=true)](https://ci.appveyor.com/project/madskristensen/extensibilitytools)
+[![Build status](https://ci.appveyor.com/api/projects/status/kstp8smh28emp9ns?svg=true)](https://ci.appveyor.com/project/madskristensen/vsixgalleryextension)
 
 <!-- Update the VS Gallery link after you upload the VSIX-->
 Download this extension from the [VS Gallery](https://visualstudiogallery.msdn.microsoft.com/[GuidFromGallery])
