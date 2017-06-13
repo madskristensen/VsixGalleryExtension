@@ -1,4 +1,4 @@
-# VSIX Gallery - nightly builds
+t# VSIX Gallery - nightly builds
 
 [![Build status](https://ci.appveyor.com/api/projects/status/kstp8smh28emp9ns?svg=true)](https://ci.appveyor.com/project/madskristensen/vsixgalleryextension)
 
@@ -7,7 +7,7 @@ or get the [CI build](http://vsixgallery.com/extension/32b51a45-f958-4a80-8575-2
 
 ---------------------------------------
 
-Get on the cutting edge by using the nighly builds of your favorite extensions from vsixgallery.com
+Get on the cutting edge by using the nightly builds of your favorite extensions from vsixgallery.com
 
 See the [change log](CHANGELOG.md) for changes and road map.
 
