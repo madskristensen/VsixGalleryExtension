@@ -1,4 +1,4 @@
-# VSIX Gallery - nightly builds
+# Open VSIX Gallery for Visual Studio
 
 [![Build status](https://ci.appveyor.com/api/projects/status/kstp8smh28emp9ns?svg=true)](https://ci.appveyor.com/project/madskristensen/vsixgalleryextension)
 
