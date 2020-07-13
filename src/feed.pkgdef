@@ -1,5 +1,5 @@
 ﻿[$RootKey$\ExtensionManager\Repositories\{31fa092f-eb72-46de-a0d6-4dd97b15fde1}]
-@="http://vsixgallery.com/feed/"
+@="https://www.vsixgallery.com/feed/"
 "Priority"=dword:00000064
 "Protocol"="Atom Feed"
-"DisplayName"="VSIX Gallery"
+"DisplayName"="Open VSIX Gallery"
