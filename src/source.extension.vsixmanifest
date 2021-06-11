@@ -1,22 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
-    <Metadata>
-        <Identity Id="32b51a45-f958-4a80-8575-2c9906e45057" Version="2.0" Language="en-US" Publisher="Mads Kristensen" />
-        <DisplayName>Open VSIX Gallery</DisplayName>
-        <Description xml:space="preserve">Get on the cutting edge by using the nightly builds of your favorite extensions from vsixgallery.com</Description>
-        <MoreInfo>https://github.com/madskristensen/VsixGalleryExtension</MoreInfo>
-        <License>Resources\LICENSE</License>
-        <Icon>Resources\Icon.png</Icon>
-        <PreviewImage>Resources\Icon.png</PreviewImage>
-        <Tags>vsix, extensions, gallery</Tags>
-    </Metadata>
-    <Installation>
-        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[14.0,17.0)" />
-    </Installation>
-    <Assets>
-        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="feed.pkgdef" />
-    </Assets>
-    <Prerequisites>
-        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,)" DisplayName="Visual Studio core editor" />
-    </Prerequisites>
+  <Metadata>
+    <Identity Id="32b51a45-f958-4a80-8575-2c9906e45057" Version="2.0" Language="en-US" Publisher="Mads Kristensen" />
+    <DisplayName>Open VSIX Gallery</DisplayName>
+    <Description xml:space="preserve">Get on the cutting edge by using the nightly builds of your favorite extensions from vsixgallery.com</Description>
+    <MoreInfo>https://github.com/madskristensen/VsixGalleryExtension</MoreInfo>
+    <License>Resources\LICENSE</License>
+    <Icon>Resources\Icon.png</Icon>
+    <PreviewImage>Resources\Icon.png</PreviewImage>
+    <Tags>vsix, extensions, gallery</Tags>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[14.0,17.0)" />
+    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0,18.0)">
+      <ProductArchitecture>amd64</ProductArchitecture>
+    </InstallationTarget>
+  </Installation>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="feed.pkgdef" />
+  </Assets>
+  <Prerequisites>
+    <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,)" DisplayName="Visual Studio core editor" />
+  </Prerequisites>
 </PackageManifest>
